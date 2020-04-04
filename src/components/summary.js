@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import axios from 'axios';
 
 import Level from './level';
@@ -49,9 +49,9 @@ function Summary(props) {
           />
           <h5>We stand with everyone fighting on the frontlines</h5>
         </div>
-        <div className="link">
+        {/* <div className="link">
           <a href="https://github.com/covid19india">covid19india.org</a>
-        </div>
+        </div>*/}
       </div>
     </div>
   );

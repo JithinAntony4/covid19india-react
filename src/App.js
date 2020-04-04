@@ -1,11 +1,10 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
   Redirect,
+  Route,
+  Switch,
 } from 'react-router-dom';
-import * as Icon from 'react-feather';
 
 import './App.scss';
 
@@ -79,7 +78,7 @@ function App() {
         />*/}
 
         <h5>We stand with everyone fighting on the frontlines</h5>
-        <div className="link">
+        {/* <div className="link">
           <a href="https://github.com/covid19india">covid19india</a>
         </div>
         <a
@@ -113,7 +112,7 @@ function App() {
         >
           <Icon.MessageCircle />
           <span>Join Telegram to Collaborate!</span>
-        </a>
+        </a>*/}
       </footer>
     </div>
   );
